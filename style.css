@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* background-color: red; */
     height: 100vh;
 }
 .bg-blue{
@@ -37,6 +36,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 212px;
 }
 .heading{
     font-size: 48px;
@@ -56,6 +56,83 @@
     color: white;
 }
 
+/* card section  */
+.card-section{
+    /* background-color: rgb(187, 126, 126); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-heading{
+    margin: 34px 0;
+}
+.card-items{
+    display: flex;
+    padding: 28px 258px;
+    gap: 34px;
+}
+.card{
+text-align: center;
+width: 176px;
+}
+.card img{
+    width: 170px;
+    height: 170px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+/* quote section  */
+.quote{
+    /* border: 2px solid black; */
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    padding: 80px 300px;
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+.quote div{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* action  */
+.action{
+    background-color: #3882F6;
+    display: flex;
+    padding: 45px 116px;
+    margin: 0px 161px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.action-text{
+    color: white;
+}
+.action .bold{
+    font-size: 22px;
+    font-weight: bold;
+}
+.action .thin{
+    font-size: 14px;
+}
+
+/* footer section  */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 12px;
+}
+
+
 
 
 
@@ -63,6 +140,33 @@
 /* button style  */
 .sign-up{
     background-color: #3888F6;
-    padding: 10px 10px;
+    padding: 7px 35px;
     color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.sign-up:hover{
+    background-color: white;
+    color: #3888F6;
+}
+
+.action-button button{
+    padding: 7px 35px;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #3888F6;
+    border: 2px solid white;
+}
+.action-button button:hover{
+    background-color: white;
+    color: #3888F6;
+}
+
+/* utility class */
+.my-8{
+    margin-top: 8px;
 }
